@@ -11,4 +11,6 @@ The complexity of `populateList` is O(n).
 The complexity of `populateFifoList` is O(n).  
 The complexity of `ReverseLines.printReverse` is O(n). 
 
-- Which of these methods can be implemented using `while` loops?
+- Which of these methods can be implemented using `while` loops?  
+Each of these methods, `populateList`, `populateFifoList`, and `ReverseLines.printReverse` could essentially
+be implemented using `while` loops instead. 
