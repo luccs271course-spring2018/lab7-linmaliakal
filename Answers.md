@@ -7,5 +7,8 @@ the next?
 
 - What are the time and space complexity of each of the `populateList`, `populateFifoList` methods, as well 
 as `ReverseLines.printReverse`?  
+The complexity of `populateList` is O(n).  
+The complexity of `populateFifoList` is O(n).  
+The complexity of `ReverseLines.printReverse` is O(n). 
 
 - Which of these methods can be implemented using `while` loops?
