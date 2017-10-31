@@ -1,9 +1,8 @@
 package edu.luc.cs271.linkedstack;
 
-import java.util.List;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.NoSuchElementException;
-
 
 public class LinkedStack<E> implements IStack<E> {
 
@@ -23,7 +22,7 @@ public class LinkedStack<E> implements IStack<E> {
     if (isEmpty()) {
       throw new NoSuchElementException();
     } else {
-    return top.data;
+      return top.data;
     }
   }
 
@@ -35,7 +34,7 @@ public class LinkedStack<E> implements IStack<E> {
     } else {
       E result = top.data;
       top = top.next;
-      return result; 
+      return result;
     }
   }
 
@@ -51,7 +50,7 @@ public class LinkedStack<E> implements IStack<E> {
     populateList(top, result); // DONE replace null with the right reference
     return result;
   }
-  
+
   private void populateList(final Node<E> curr, final List<E> result) {
     // DONE recursively populate the list in the desired order
     if (curr == null) {
