@@ -1,6 +1,8 @@
 # Answers
 - What is the purpose of the various auxiliary methods `populateList`, `populateFifoList`, and 
 `ReverseLines.printReverse`?  
+These different methods help make sure the tests can make changes to the stack depending on what needs to 
+be changed about them, like printing in reverse. 
 
 - Why do these methods need to have arguments, and how does the argument change from one recursive call to 
 the next?  
