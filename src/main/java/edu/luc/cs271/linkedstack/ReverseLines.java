@@ -10,7 +10,15 @@ public class ReverseLines {
   }
 
   private static void printReverse(final Scanner input) {
-    // TODO recursively read and print successive input lines until EOF, then print them out in
+    // DONE recursively read and print successive input lines until EOF, then print them out in
     // reverse order
+    if (input.hasNextLine()) {
+      String var = input.nextLine();
+      System.out.println(var);
+      printReverse(input);
+      System.out.println(var);
+    } else {
+      return;
+    }
   }
 }
